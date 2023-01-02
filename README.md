@@ -11,18 +11,19 @@ Tech used: Python, Django, MySQL
 
 Copyright (c) 2023 Jason Le
 
-root
-  |- helix_backend
-  | |- helix_backend
-  | |- portal
-  |- helix_frontend
-  | |- public
-  | |- src
-  | | |- api
-  | | |- components
-  | | |- css
-  | | |- images
-  | | |- utils
+# File Tree
+root  
+  |- helix_backend  
+  | |- helix_backend  
+  | |- portal  
+  |- helix_frontend  
+  | |- public  
+  | |- src  
+  | | |- api  
+  | | |- components  
+  | | |- css  
+  | | |- images  
+  | | |- utils  
  
 # Getting Started
 1. Create virtual environment inside root folder named "env"
@@ -40,13 +41,14 @@ root
 Frontend Server (Port: 3000) Backend Server (Port: 8000)
 
 **Note: 
-Must have SQL server up and running
-SQL Settings: {
-`USER`:`root`
-`NAME`: [env_var]
-`HOST: `127.0.0.1`
-`PASSWORD`: [env_var]
-`PORT`: `3306`
+Must have SQL server up and running  
+
+SQL Settings: {  
+'USER':'root'  
+'NAME': [env_var]  
+'HOST: '127.0.0.1'  
+'PASSWORD': [env_var]  
+'PORT': '3306'  
 }
 
 ## Available Scripts
