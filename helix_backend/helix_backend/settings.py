@@ -90,7 +90,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'helix_database',
+        'NAME': os.getenv('MYSQL_NAME'),
         'USER': 'root',
         'PASSWORD': os.getenv('MYSQL_PASS'),
         'HOST': '127.0.0.1',
