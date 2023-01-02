@@ -5,5 +5,5 @@ from django.db.models import Model
 
 class Questions(Model):
   question_id = models.AutoField(primary_key=True)
-  title = models.CharField(max_length=50)
+  title = models.CharField(max_length=100)
   text = models.CharField(max_length=1000)
