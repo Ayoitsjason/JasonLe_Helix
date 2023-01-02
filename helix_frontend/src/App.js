@@ -4,6 +4,7 @@ import "./css/custom.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Splash from "./components/Splash";
+import Error from "./components/Error";
 
 function App() {
   const [questionPopup, setQuestionPopup] = useState(false);
@@ -32,6 +33,7 @@ function App() {
               />
             }
           />
+          <Route path="/*" element={<Error />} />
         </Routes>
       </div>
     </BrowserRouter>
