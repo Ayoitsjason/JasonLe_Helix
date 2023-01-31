@@ -1,6 +1,8 @@
 # Helix
 Ask questions and get help from the community
 
+[screen-capture.webm](https://user-images.githubusercontent.com/11216742/215649511-05bf684a-69a0-4e5c-986e-dd40043337db.webm)
+
 # How It's Made:
 
 Front End
